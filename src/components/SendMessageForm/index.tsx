@@ -43,7 +43,7 @@ export function SendMessageForm() {
                 <textarea
                     name="message"
                     id="message"
-                    placeholder="Qual sua expectativa para o evento?"
+                    placeholder="Qual sua expectativa deste app?"
                     onChange={event => setMessage(event.target.value)}
                     value={message} />
 
